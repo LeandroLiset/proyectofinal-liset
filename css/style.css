@@ -137,3 +137,45 @@ body {
       grid-row: span 2;
     }
   }
+
+
+/* ----- BIOGRAFIA ----- */
+
+.biografia-main{
+    text-align: center;
+}
+
+.biografia-main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.biografia-main img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* ----- NOTICIAS ----- */
+
+.back-color {
+    background-color: #bcbcf0;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+
+.main-index{
+    text-align: center;
+}
