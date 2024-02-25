@@ -107,11 +107,14 @@ body {
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
 
-    border: solid 1px white;
+    border: solid 2px rgb(0, 0, 0);
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 15px;
+
+    
 }
 
 .grid-item:hover {
@@ -163,10 +166,11 @@ body {
 
 h1 {
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 0, 0);
+    /* background-color: rgb(255, 0, 0); */
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -178,4 +182,31 @@ h2 {
 
 .main-index{
     text-align: center;
+}
+
+/* footer */
+
+footer {
+    background-color: #000000;
+    padding: 0;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+footer p {
+    line-height: 60px; 
+}
+
+main {
+    margin-bottom: 60px; /* Ajusta el valor para dejar espacio para el footer */
+}
+
+.main-index section{
+    padding: 10px;
 }
