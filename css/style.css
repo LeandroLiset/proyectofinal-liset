@@ -5,50 +5,135 @@
 
 /* ----- REUTILIZABLES ------ */
 
-.borde{
+.borde {
     border: 2px solid black;
 }
 
-.img-discografia img{
+.img-discografia img {
     width: 300px;
 }
 
 
-
-section{
+section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-section a{
-    text-align: center;
+section p a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
-article p{
+article p {
     background-color: black;
     text-align: center;
     color: rgb(255, 255, 255);
-    
+
 }
 
 /* ----- CONTACTO ----- */
-.contacto form{
+.contacto form {
     text-align: center;
     display: flex;
     flex-direction: column;
     margin: 20px;
 }
 
-.contacto h1{
+.contacto h1 {
     text-align: center;
     margin: 10px;
 }
 
 
-body{
+body {
     background-color: rgb(125, 125, 201);
 }
+
+/* ----- FOTOS ----- */
+
+.imagen1 {
+    background-image: url('../resources/img1.jpeg');
+}
+
+.imagen2 {
+    background-image: url('../resources/img2.webp');
+}
+
+.imagen3 {
+    background-image: url('../resources/img3.webp');
+}
+
+.imagen4 {
+    background-image: url('../resources/img4.jpg');
+}
+
+.imagen5 {
+    background-image: url('../resources/img5.jpg');
+}
+
+.imagen6 {
+    background-image: url('../resources/img6.jpg');
+}
+
+.imagen7 {
+    background-image: url('../resources/img7.jpg');
+}
+
+.imagen8 {
+    background-image: url('../resources/img8.jpg');
+}
+
+.imagen9 {
+    background-image: url('../resources/img9.jpg');
+}
+
+.imagen10 {
+    background-image: url('../resources/img10.webp');
+}
+
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #03afff;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+
+    border: solid 1px white;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 10px;
+    grid-auto-flow: dense;
+}
+
+
+@media (min-width: 600px) {
+    .ancho {
+      grid-column: span 2;
+    }
+  
+    .alto {
+      grid-row: span 2;
+    }
+  }
