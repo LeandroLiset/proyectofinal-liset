@@ -15,19 +15,18 @@ section {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly; }
-
-section p a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: black;
-  color: white;
-  text-decoration: none; }
+  section p a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    text-decoration: none; }
 
 article p {
   background-color: black;
   text-align: center;
-  color: white; }
+  color: #fff; }
 
 /* ----- CONTACTO ----- */
 .contacto form {
@@ -86,10 +85,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   margin: 15px; }
-
-.grid-item:hover {
-  filter: opacity(0.9);
-  transform: scale(1.04); }
+  .grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04); }
 
 .grid-container {
   display: grid;
@@ -97,65 +95,67 @@ body {
   grid-auto-rows: minmax(200px, auto);
   gap: 10px;
   grid-auto-flow: dense; }
-
-@media (min-width: 600px) {
-  .ancho {
-    grid-column: span 2; }
-  .alto {
-    grid-row: span 2; } }
+  @media (min-width: 600px) {
+    .grid-container .ancho {
+      grid-column: span 2; }
+    .grid-container .alto {
+      grid-row: span 2; } }
 
 /* ----- BIOGRAFIA ----- */
 .biografia-main {
   text-align: center; }
-
-.biografia-main p {
-  font-family: Arial, Helvetica, sans-serif; }
-
-.biografia-main img {
-  width: 200px;
-  margin-bottom: 20px; }
+  .biografia-main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 20px; }
+  .biografia-main img {
+    width: 200px;
+    margin-bottom: 20px; }
 
 /* ----- NOTICIAS ----- */
 .back-color {
   background-color: #bcbcf0;
   text-align: center; }
 
-h1 {
-  color: black;
-  /* background-color: rgb(255, 0, 0); */
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 20px;
-  text-align: center; }
-
+h1,
 h2 {
-  color: black;
+  color: #000;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 20px; }
+  padding: 20px; }
 
 .main-index {
   text-align: center; }
 
 /* footer */
 footer {
-  background-color: #000000;
+  background-color: #000;
   padding: 0;
   text-align: center;
-  color: white;
+  color: #fff;
   position: fixed;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   height: 60px; }
-
-footer p {
-  line-height: 60px; }
+  footer p {
+    line-height: 60px; }
 
 main {
-  margin-bottom: 60px;
-  /* Ajusta el valor para dejar espacio para el footer */ }
+  margin-bottom: 60px; }
 
 .main-index section {
   padding: 10px; }
+
+.main-noticia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+  .main-noticia p {
+    padding: 7px; }
+  .main-noticia img {
+    width: 600px;
+    margin-bottom: 10px; }
