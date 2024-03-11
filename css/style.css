@@ -97,9 +97,6 @@ article p {
   text-align: center;
   margin: 10px; }
 
-body {
-  background-color: #7d7dc9; }
-
 footer {
   background-color: #000;
   padding: 0;
@@ -151,3 +148,6 @@ main {
 
 .main-index section {
   padding: 10px; }
+
+body {
+  background-color: #7d7dc9; }
