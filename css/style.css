@@ -1,46 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
-
-/* ----- REUTILIZABLES ------ */
-.borde {
-  border: 2px solid black;
-  color: red; }
-
-.img-discografia img {
-  width: 300px; }
-
-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-  section p a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    color: #fff;
-    text-decoration: none; }
-
-article p {
-  background-color: black;
-  text-align: center;
-  color: #fff; }
-
-/* ----- CONTACTO ----- */
-.contacto form {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin: 20px; }
-
-.contacto h1 {
-  text-align: center;
-  margin: 10px; }
-
-body {
-  background-color: #7d7dc9; }
+  padding: 0;
+  font-family: sans-serif; }
 
 /* ----- FOTOS ----- */
 .imagen1 {
@@ -101,33 +62,44 @@ body {
     .grid-container .alto {
       grid-row: span 2; } }
 
-/* ----- BIOGRAFIA ----- */
-.biografia-main {
-  text-align: center; }
-  .biografia-main p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    padding: 20px; }
-  .biografia-main img {
-    width: 200px;
-    margin-bottom: 20px; }
+.borde {
+  border: 2px solid black;
+  color: red; }
 
-/* ----- NOTICIAS ----- */
-.back-color {
-  background-color: #bcbcf0;
-  text-align: center; }
+.img-discografia img {
+  width: 300px; }
 
-h1,
-h2 {
-  color: #000;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 20px; }
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  section p a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    text-decoration: none; }
 
-.main-index {
-  text-align: center; }
+article p {
+  background-color: black;
+  text-align: center;
+  color: #fff; }
 
-/* footer */
+.contacto form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px; }
+
+.contacto h1 {
+  text-align: center;
+  margin: 10px; }
+
+body {
+  background-color: #7d7dc9; }
+
 footer {
   background-color: #000;
   padding: 0;
@@ -142,11 +114,12 @@ footer {
   footer p {
     line-height: 60px; }
 
-main {
-  margin-bottom: 60px; }
-
-.main-index section {
-  padding: 10px; }
+h1,
+h2 {
+  color: #000;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px; }
 
 .main-noticia {
   display: flex;
@@ -159,3 +132,22 @@ main {
   .main-noticia img {
     width: 600px;
     margin-bottom: 10px; }
+
+.biografia-main {
+  text-align: center; }
+  .biografia-main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 20px; }
+  .biografia-main img {
+    width: 200px;
+    margin-bottom: 20px; }
+
+.main-index {
+  text-align: center; }
+
+main {
+  margin-bottom: 60px; }
+
+.main-index section {
+  padding: 10px; }
