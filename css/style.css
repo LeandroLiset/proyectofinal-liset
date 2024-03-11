@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: "Bebas Neue", sans-serif; }
 
 /* ----- FOTOS ----- */
 .imagen1 {
@@ -133,12 +136,14 @@ h2 {
 .biografia-main {
   text-align: center; }
   .biografia-main p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Libre Baskerville", serif;
     text-align: left;
     padding: 20px; }
   .biografia-main img {
     width: 200px;
     margin-bottom: 20px; }
+  .biografia-main h3 {
+    font-family: "Archivo Black", sans-serif; }
 
 .main-index {
   text-align: center; }
@@ -149,5 +154,11 @@ main {
 .main-index section {
   padding: 10px; }
 
+h2 {
+  font-family: "Archivo Black", sans-serif; }
+
 body {
   background-color: #7d7dc9; }
+
+h1 {
+  font-family: "Bebas Neue", sans-serif; }
