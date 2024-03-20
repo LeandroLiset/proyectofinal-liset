@@ -1,5 +1,6 @@
 .main-index {
     text-align: center;
+    
 }
 
 
@@ -13,4 +14,12 @@ main {
 
 h2{
     font-family: $fuente-subtitulo;
+}
+
+a {
+    text-decoration: none;
+}
+
+iframe{
+    margin: 20px;
 }

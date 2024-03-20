@@ -37,6 +37,27 @@
 .imagen10 {
   background-image: url("../resources/img10.webp"); }
 
+.imagen11 {
+  background-image: url("../resources/img11.png"); }
+
+.imagen12 {
+  background-image: url("../resources/img12.jpg"); }
+
+.imagen13 {
+  background-image: url("../resources/img13.jpg"); }
+
+.imagen14 {
+  background-image: url("../resources/img14.jpg"); }
+
+.imagen15 {
+  background-image: url("../resources/img15.jpeg"); }
+
+.imagen16 {
+  background-image: url("../resources/img16.jpg"); }
+
+.imagen17 {
+  background-image: url("../resources/img17.webp"); }
+
 .grid-item {
   display: flex;
   align-items: center;
@@ -67,7 +88,9 @@
 
 .borde {
   border: 2px solid black;
-  color: red; }
+  border-radius: 20px;
+  background-color: black;
+  margin-bottom: 20px; }
 
 .img-discografia img {
   width: 300px; }
@@ -90,15 +113,50 @@ article p {
   text-align: center;
   color: #fff; }
 
-.contacto form {
-  text-align: center;
+.input-group {
   display: flex;
   flex-direction: column;
-  margin: 20px; }
+  text-align: left; }
 
-.contacto h1 {
-  text-align: center;
-  margin: 10px; }
+.formulario {
+  font-family: "Archivo Black", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .formulario form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 600px;
+    background-color: #eae1f5; }
+    .formulario form h2 {
+      color: #000000;
+      font-size: 35px; }
+    .formulario form label {
+      color: #eae1f5;
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 15px; }
+    .formulario form input,
+    .formulario form textarea {
+      padding: 17px 25px;
+      border-radius: 25px !important;
+      margin-bottom: 20px;
+      border: 2px solid;
+      font-family: "Archivo Black", sans-serif; }
+
+@media (max-width: 600px) {
+  .formulario form {
+    width: 90%;
+    padding: 30px; }
+    .formulario form input {
+      width: 90%;
+      padding: 30px; }
+    .formulario form textarea {
+      width: 90%;
+      padding: 30px; } }
 
 footer {
   background-color: #000;
@@ -157,8 +215,15 @@ main {
 h2 {
   font-family: "Archivo Black", sans-serif; }
 
+a {
+  text-decoration: none; }
+
+iframe {
+  margin: 20px; }
+
 body {
-  background-color: #7d7dc9; }
+  background-color: #7d7dc9;
+  min-height: 100vh; }
 
 h1 {
   font-family: "Bebas Neue", sans-serif; }
