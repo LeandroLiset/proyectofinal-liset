@@ -23,3 +23,14 @@ a {
 iframe{
     margin: 20px;
 }
+
+
+.imagen {
+    width: 400px;
+}
+
+@media screen and (max-width: 400px) {
+    .imagen {
+        width: 320px;
+    }
+}
